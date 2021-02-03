@@ -1,0 +1,63 @@
+div.container{
+    background-color: white;
+    margin: 20px;
+    border-style: solid;
+    border-width: thin;
+    border-color: whitesmoke darkgrey grey white;
+}
+
+div.container header{
+    font-weight: bold;
+    padding: 10px;
+}
+div.container header ul li{
+    display: inline-block;
+    padding: 0 5px;
+}
+div.container header ul.floatRight{
+    float: right;
+}
+
+div.container div{
+    padding: 10px;
+    margin-left: 5px;
+}
+div.container footer{
+    padding: 10px;
+}
+div.container footer ul{
+    width: 100%;
+}
+div.container footer ul li{
+    float: right;
+    padding-right: 5px;
+}
+
+div.container form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    margin: auto;
+}
+div.container form div{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+div.container form ul{
+    width: 100%;
+}
+div.container form ul li{
+    padding: 10px;
+}
+div.container form ul li label input {
+    margin-top: 5px;
+    width: 100%;
+}
+div.container form input[type=submit],input[type=reset]{
+    margin: 11px;
+    background-color: #eeeeee;
+    border-width: 1px;
+}

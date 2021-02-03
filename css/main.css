@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    background-color: #eeeeee;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}

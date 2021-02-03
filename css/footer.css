@@ -1,0 +1,16 @@
+footer.footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    height:30px;
+    width:100%;
+}
+footer.footer div{
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+}
+footer.footer div.floatRight{
+    float: right;
+    padding-right: 10px;
+}
