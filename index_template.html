@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<HTML lang="pt">
+
+<HEAD>
+    <meta charset="UTF-8">
+    <title>index_template</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navBar.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/footer.css">
+</HEAD>
+
+<body>
+
+<!--Top Bar-->
+<header class="navBar">
+    <div class="navBarLogo">
+        <img alt="" src=""><b>Logo</b>
+    </div>
+    <ul><li><a href="">Menu1</a></li></ul>
+    <ul class="rightMenu">
+        <li class="floatRight"><a href="">Menu2</a></li>
+        <li class="floatRight"><a href="">Menu3</a></li>
+    </ul>
+</header>
+
+<!--Post Box-->
+<div class="container">
+    <header>
+        <ul>
+            <li>{User}</li>
+        </ul>
+        <ul class="floatRight">
+            <li>updated:{Update}</li>
+            <li>created:{Created}</li>
+        </ul>
+    </header>
+    <div>{MicroPost}</div>
+    <footer>
+        <ul>
+            <li><a href="">👎</a></li>
+            <li><a href="">👍</a></li>
+        </ul>
+    </footer>
+</div>
+
+<footer class="footer">
+    <div>@2020 Desenvolvimento de Aplicações Web</div>
+    <div class="floatRight">Designed by a61207</div>
+</footer>
+
+</body>
+</HTML>
