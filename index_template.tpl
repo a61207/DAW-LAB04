@@ -25,25 +25,25 @@
 </div>
 
 {foreach item=micropost from=$microposts}
-<!--Post Box-->
-<div class="container">
-    <div class="header">
-        <ul>
-            <li>{$micropost.user_id}</li>
-        </ul>
-        <ul class="floatRight">
-            <li>updated:{$micropost.updated_at}</li>
-            <li>created:{$micropost.created_at}</li>
-        </ul>
+    <!--Post Box-->
+    <div class="container">
+        <div class="header">
+            <ul>
+                <li>{$micropost.name}</li>
+            </ul>
+            <ul class="floatRight">
+                <li>updated: {$micropost.updated_at}</li>
+                <li>created: {$micropost.created_at}</li>
+            </ul>
+        </div>
+        <div class="body">{$micropost.content}</div>
+        <div class="footer">
+            <ul>
+                <li class="floatLeft"><a href="">Update</a></li>
+                <li class="floatRight"><a href="">&#128077 {$micropost.likes}</a></li>
+            </ul>
+        </div>
     </div>
-    <div class="body">{$micropost.content}</div>
-    <div class="footer">
-        <ul>
-            <li class="floatLeft"><a href="">Update</a></li>
-            <li class="floatRight"><a href="">&#128077 {$micropost.likes}</a></li>
-        </ul>
-    </div>
-</div>
 {/foreach}
 
 <div class="footerBar">

@@ -6,32 +6,40 @@ div.container{
     border-color: whitesmoke darkgrey grey white;
 }
 
-div.container header{
+div.container div.header{
     font-weight: bold;
     padding: 10px;
 }
-div.container header ul li{
+div.container div.header ul li{
     display: inline-block;
     padding: 0 5px;
 }
-div.container header ul.floatRight{
+div.container div.header ul.floatRight{
     float: right;
 }
 
-div.container div{
+div.container div.body{
     padding: 10px;
     margin-left: 5px;
 }
-div.container footer{
+div.container div.footer{
     padding: 10px;
 }
-div.container footer ul{
+div.container div.footer ul{
+    display: inline-block;
     width: 100%;
 }
-div.container footer ul li{
+div.container div.footer ul li{
+    float: left;
+    padding-left: 10px;
+}
+div.container div.footer ul li.floatRight{
     float: right;
     padding-right: 5px;
 }
+div.container div.footer ul li.floatRight a{
+    text-decoration: none;
+ }
 
 div.container form{
     padding-top: 20px;

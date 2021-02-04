@@ -1,16 +1,16 @@
-footer.footer{
+div.footerBar{
     position:fixed;
     left:0;
     bottom:0;
     height:30px;
     width:100%;
 }
-footer.footer div{
+div.footerBar div{
     display: inline-block;
     float: left;
     padding-left: 10px;
 }
-footer.footer div.floatRight{
+div.footerBar div.floatRight{
     float: right;
     padding-right: 10px;
 }
